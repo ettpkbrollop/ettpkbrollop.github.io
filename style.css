@@ -1,0 +1,12 @@
+html, body, div {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    background-image: url('save-the-date.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
