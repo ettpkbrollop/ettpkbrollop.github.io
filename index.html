@@ -1,113 +1,412 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+    <!--INCLUDE SQS SCRIPTS, META TAGS AND USER CONTENT FROM THE CODE INJECTION TAB-->
+
+    <!-- This is Squarespace. --><!-- erica-helin-l1tp -->
+    <link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1452095616969_163"
+          href="//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css">
+    <link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1452095616969_167"
+          href="//static.squarespace.com/universal/styles-compressed/social-buttons-578fb344ac92d6ab44d6030c1b952622-min.css">
+
+    <base href="">
+    <meta charset="utf-8">
+    <title>#ettpkbröllop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="http://www.sensommarbrollop.se/">
+    <meta property="og:site_name" content="#sensommarbrollop">
+    <meta property="og:title" content="BLOGG">
+    <meta property="og:url" content="http://www.sensommarbrollop.se/">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+          content="https://static1.squarespace.com/static/54db799ae4b0fa0ca47f21f9/t/554fdff5e4b0c62a575ae805/1443384134552/?format=1000w">
+    <meta itemprop="name" content="BLOGG">
+    <meta itemprop="url" content="http://www.sensommarbrollop.se/">
+    <meta itemprop="thumbnailUrl"
+          content="https://static1.squarespace.com/static/54db799ae4b0fa0ca47f21f9/t/554fdff5e4b0c62a575ae805/1443384134552/?format=1000w">
+    <link rel="image_src"
+          href="https://static1.squarespace.com/static/54db799ae4b0fa0ca47f21f9/t/554fdff5e4b0c62a575ae805/1443384134552/?format=1000w">
+    <meta itemprop="image"
+          content="https://static1.squarespace.com/static/54db799ae4b0fa0ca47f21f9/t/554fdff5e4b0c62a575ae805/1443384134552/?format=1000w">
+    <meta name="twitter:title" content="BLOGG">
+    <meta name="twitter:image"
+          content="https://static1.squarespace.com/static/54db799ae4b0fa0ca47f21f9/t/554fdff5e4b0c62a575ae805/1443384134552/?format=1000w">
+    <meta name="twitter:url" content="http://www.sensommarbrollop.se/">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Lato:100,400,300,300italic,700normal,700italic,700,400italic|Old+Standard+TT:400,400italic,700normal,700italic|Source+Sans+Pro:400">
+
+    <link rel="stylesheet" type="text/css"
+          href="//static.squarespace.com/universal/styles-compressed/commerce-2b4a0593bca72ff9bd48bd03804b62b2-min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--[if gte IE 9]>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=1"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=2"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=3"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=4"/>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//static.squarespace.com"></script>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=1"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=2"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=3"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=4"/>
+    <![endif]-->
+    <!--[if !IE]> -->
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&amp;filterFeatures=false">
+    <!-- <![endif]-->
+    <!-- End of Squarespace Headers -->
+
     <link type="text/css" href="style.css" media="all" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:100,400,300,300italic,700normal,700italic,700,400italic|Old+Standard+TT:400,400italic,700normal,700italic|Source+Sans+Pro:400">
 </head>
-<body>
+<!--body class="info-page-layout-poster info-page-content-overlay tagline-and-contact-info-hide-all site-border-none
+social-icon-style-round  hide-author  show-category-navigation gallery-design-grid aspect-ratio-auto
+lightbox-style-light gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard
+gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop
+product-list-titles-under product-list-alignment-left product-item-size-11-square product-image-auto-crop
+product-gallery-size-11-square product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing
+event-thumbnails event-thumbnail-size-32-standard event-date-label event-date-label-time event-list-show-cats
+event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link
+opentable-style-light newsletter-style-dark small-button-style-solid small-button-shape-square
+medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square
+button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating
+tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate
+tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button
+tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-5500734ee4b011380d5f3d7c
+collection-type-blog collection-layout-default homepage view-list mobile-style-available"-->
+<body class="collection-type-blog">
 <div id="big">
-    <div id="center">
-        <div id="head">
-            <div id="links">
-                <a href="#directions">V�gbeskrivning</a>
-                <a href="#schedule">Schema</a>
-                <a href="#accommodation">Boende</a>
-                <a href="#contact">Kontakt</a>
-            </div>
-            <h1>
-                PK wedding
+    <div id="head">
+        <header id="header">
+            <nav id="main-navigation" data-content-field="navigation-mainNav">
+                <ul class="cf">
+                    <li>
+                        <a href="#directions">Vägbeskrivning</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">Schema</a>
+                    </li>
+                    <li>
+                        <a href="#accommodation">Boende</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Kontakt</a>
+                    </li>
+                    <li>
+                        <a href="#golf">Golf</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="innerWrapper">
+        <div id="title-area" class="relative">
+            <h1 class="site-title"
+                style="letter-spacing: 0.0138889em;">
+                PK Wedding
+                <a href="/">
+                    <img class="site-title-image"
+                         src="3_2998745fc0a72067a0.gif"
+                         alt="#ettpkbröllop">
+                </a>
             </h1>
-        </div>
-
-        <div id="body">
-            <div class="content">
-                <h1>V�lkomna!</h1>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it
-                    to make a
-                    type specimen book. It has survived not only five centuries, but also the leap into electronic
-                    typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                    containing
-                    Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                    including
-                    versions
-                    of Lorem Ipsum.
-                </p>
-                <p>
-                    It is a long established fact that a reader will be distracted by the readable content of a page
-                    when
-                    looking at
-                    its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                    letters,
-                    as
-                    opposed to using 'Content here, content here', making it look like readable English. Many desktop
-                    publishing
-                    packages and web page editors now use Lorem Ipsum as their default model text, and a search for
-                    'lorem
-                    ipsum'
-                    will
-                    uncover many web sites still in their infancy. Various versions have evolved over the years,
-                    sometimes
-                    by
-                    accident, sometimes on purpose (injected humour and the like).
-                </p>
-                <p>
-
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical
-                    Latin
-                    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                    Hampden-Sydney
-                    College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
-                    passage, and
-                    going through the cites of the word in classical literature, discovered the undoubtable source.
-                    Lorem
-                    Ipsum
-                    comes
-                    from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
-                    by
-                    Cicero,
-                    written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
-                    Renaissance.
-                    The
-                    first
-                    line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                </p>
-                <p>
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
-                    Sections
-                    1.10.32
-                    and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
-                    original
-                    form,
-                    accompanied by English versions from the 1914 translation by H. Rackham.
-                </p>
-            </div>
-            <div class="content">
-                <h1 id="directions">V�gbeskrivning</h1>
-
-                <div id="googlemaps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d613699.2893256547!2d12.054765269731497!3d58.175914863323015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465adabfb3a0bd5f%3A0x31ddd05530ca778c!2sBjertorp+Slott!5e0!3m2!1sen!2sse!4v1452096699935"
-                            width="570" height="350" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                </div>
-            </div>
-            <div class="content">
-                <h1 id="schedule">Schema</h1>
-            </div>
-            <div class="content">
-                <h1 id="accommodation">Boende</h1>
-            </div>
-            <div class="content">
-                <h1 id="contact">Kontakt</h1>
+            <!--SITE contact info-->
+            <div class="contact-info">
             </div>
         </div>
 
-        <div id="foot">
-        </div>
+        <section id="content">
+            <div class="main-content-wrapper cf" data-content-field="main-content">
+                <article class="content hentry">
+                    <h1 class="title">Välkomna!</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+
+                            <p>
+                                Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem
+                                Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an
+                                unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                                It has survived not only five centuries,
+                                but also the leap into electronic
+                                typesetting, remaining essentially
+                                unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets
+                                containing Lorem Ipsum passages, and more
+                                recently with desktop publishing software
+                                like Aldus PageMaker including versions of
+                                Lorem Ipsum.
+                            </p>
+
+                            <p>
+                                It is a long established fact that a reader
+                                will be distracted by the readable content
+                                of a page when looking at its layout. The
+                                point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of
+                                letters, as opposed to using 'Content here,
+                                content here', making it look like readable
+                                English. Many desktop publishing packages
+                                and web page editors now use Lorem Ipsum as
+                                their default model text, and a search for
+                                'lorem ipsum' will uncover many web sites
+                                still in their infancy. Various versions
+                                have evolved over the years, sometimes by
+                                accident, sometimes on purpose (injected
+                                humour and the like).
+                            </p>
+
+                            <p>
+                                Contrary to popular belief, Lorem Ipsum is
+                                not simply random text. It has roots in a
+                                piece of classical Latin literature from 45
+                                BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at
+                                Hampden-Sydney College in Virginia, looked
+                                up one of the more obscure Latin words,
+                                consectetur, from a Lorem Ipsum passage,
+                                and going through the cites of the word in
+                                classical literature, discovered the
+                                undoubtable source. Lorem Ipsum comes from
+                                sections 1.10.32 and 1.10.33 of "de Finibus
+                                Bonorum et Malorum" (The Extremes of Good
+                                and Evil) by Cicero, written in 45 BC. This
+                                book is a treatise on the theory of ethics,
+                                very popular during the Renaissance. The
+                                first line of Lorem Ipsum, "Lorem ipsum
+                                dolor sit amet..", comes from a line in
+                                section 1.10.32.
+                            </p>
+
+                            <p>
+                                The standard chunk of Lorem Ipsum used
+                                since the 1500s is reproduced below for
+                                those interested. Sections 1.10.32 and
+                                1.10.33 from "de Finibus Bonorum et
+                                Malorum" by Cicero are also reproduced in
+                                their exact original form, accompanied by
+                                English versions from the 1914 translation
+                                by H. Rackham.
+                            </p>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="directions">Vägbeskrivning</h1>
+
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <div id="googlemaps">
+                                <iframe src="https://www.google.com/maps/d/embed?mid=z51qX0ppWtLk.kxRIQLF1z-nI"
+                                        width="565" height="390" frameborder="0" style="border:0" allowfullscreen="">
+                                </iframe>
+                            </div>
+
+                            <h2></h2>
+
+                            <h2>Med bil</h2>
+                            <p>
+                                Man tar sig smidigast till Bjertorp med bil, eftersom lokaltrafiken inte når hela vägen
+                                fram.
+                            </p>
+                            <dl>
+                                <dt>Från Göteborg</dt>
+                                <dd> E20 mot Stockholm 110 km, skyltat från E20 10 km efter Vara.</dd>
+                                <dt>Från Stockholm</dt>
+                                <dd> E20 mot Göteborg 390 km, skyltat från E20 30 km efter Skara.</dd>
+                                <dt>Från Jönköping</dt>
+                                <dd> Riksväg 47 mot Trollhättan 100 km, skyltat från riksväg 47 10 km innan Vara.</dd>
+                                <dt>Från Oslo</dt>
+                                <dd> E6 till Uddevalla därefter riksväg 44 och sedan riksväg 47 300 km. Skyltat från
+                                    riksväg
+                                    47 10 km innan Vara.
+                                </dd>
+                            </dl>
+
+                            <h2> Med tåg</h2>
+                            <p>
+                                Med tåg kan man tar man sig bäst till Bjertorp från Skövde station (45 km), Herrljunga
+                                (30
+                                km), Falköping (30 km), eller Vara Station (12 km).
+
+                                Från tågstationen kan Bjertorp ordna med transport med egen minibuss. Kostnad beroende
+                                på
+                                val av tågstation.
+                            </p>
+
+                            <h2>Med flyg</h2>
+                            <p>
+                                Avstånd från Landvetter flygplats (GOT) är 100 km och från Trollhättan flygplats (THN)
+                                55
+                                km. Från flygplatsen kan man ta sig kollektivt eller med hyrbil.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="schedule">Schema</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="accommodation">Boende</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry contact">
+                    <h1 class="title" id="contact">Kontakt</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <!--h2>Brudparet</h2>
+                            <div class="split">
+                                <div>
+                                    <h3> Per Hallgren </h3>
+                                    <p class="email com"> <i class="fa fa-envelope"></i> per.zut@gmail</p>
+                                    <p class="phone"> <i class="fa fa-phone-square"></i> +46 730 58 00 53</p>
+                                </div>
+                                <div>
+                                    <h3> Kristin Norberg Ohlsson </h3>
+                                    <p class="email com"> <i class="fa fa-envelope"></i> kristinnorbergohlsson@gmail</p>
+                                    <p class="phone"> <i class="fa fa-phone-square"></i> +46 70. .. .3 28</p>
+                                </div>
+                            </div-->
+
+                            <h2>Anmälan</h2>
+
+                            <p>
+                                Brudparets föräldrar tar emot din anmälan och hoppas att höra av dig snart!
+                            </p>
+
+                            <div class="split">
+                                <div>
+                                    <h3> Inga-Lill Norberg och <br> Mats Ohlsson </h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 05 ...</p>
+                                </div>
+                                <div>
+                                    <h3> Karin Hallgren </h3>
+                                    <p class="email se"><i class="fa fa-envelope"></i> osa@ettpkbröllop</p>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> +46 7.. .. .. ..</p>
+                                </div>
+                            </div>
+
+                            <h2>Toastmasters</h2>
+
+                            <p>
+                                Värdparet som agerar toastmasters under middagen har hand om allt gällande schemat för
+                                middagen, anmäl dig till dem om du vill bidra till den festliga stämningen!
+                            </p>
+
+                            <p class="email se"><i class="fa fa-envelope"></i> tal@ettpkbröllop</p>
+
+                            <div class="split">
+                                <div>
+                                    <h3> Erina Svensson </h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> +46 7.. .. .. ..</p>
+                                </div>
+                                <div>
+                                    <h3> Christian Lidberg </h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> +46 7.. .. .. ..</p>
+                                </div>
+                            </div>
+
+                            <h2>Bestman och Brudtärna</h2>
+
+                            <p>
+                                Bestman och Brudtärna kan hjälpa dig med diverse frågor.
+                            </p>
+
+                            <div class="split">
+                                <div>
+                                    <h3> Ellen Forsberg </h3>
+                                    <p class="email com"><i class="fa fa-envelope"></i> ??@gmail</p>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> +46 7.. .. .. ..</p>
+                                </div>
+                                <div>
+                                    <h3> Tomas Olsson </h3>
+                                    <p class="email com"><i class="fa fa-envelope"></i> ohlson.tomas@gmail</p>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> +46 7.. .. .. ..</p>
+                                </div>
+                            </div>
+
+                            <h2>Bjertorp</h2>
+
+                            <p>
+                                Bjertorp hjälper dig hjärna om du har frågor kring boende, frukost, eller aktiviteter
+                                under
+                                vistelsen utanför tiden för festen. Nämn gärna att du är i Kristin och Pers sällskap.
+                            </p>
+
+                            <p class="phone"><i class="fa fa-phone-square"></i> (+46) 0512-300 500</p>
+                            <p class="email se"><i class="fa fa-envelope"></i> info@bjertorpslott.se</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="golf">Golf</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <a class="typeform-share button" href="https://kristinnorberg.typeform.com/to/NZe2nI"
+                               data-mode="1" target="_blank">Registrera dig här</a>
+                            <script>
+                                (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
+
+
+
+
+
+
+
+
+
+                            </script>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <div id="foot">
     </div>
 </div>
 </body>

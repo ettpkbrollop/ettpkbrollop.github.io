@@ -1,65 +1,21 @@
+
 html, body, #big {
     margin: 0;
     width: 100%;
     min-height: 100%;
-}
 
-#big {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002366+0,42567B+100;Grey+3D+%232 */
     background: #002366; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #002366 0%, #42567B 160%); /* FF3.6-15 */
-    background: -webkit-radial-gradient(center, ellipse cover,  #002366 0%,#42567B 160%); /* Chrome10-25,Safari5.1-6 */
-    background: radial-gradient(ellipse at center,  #002366 0%,#42567B 160%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*
+    background: -moz-radial-gradient(center, ellipse cover,  #002366 0%, #42567B 160%);
+    background: -webkit-radial-gradient(center, ellipse cover,  #002366 0%,#42567B 160%);
+    background: radial-gradient(ellipse at center,  #002366 0%,#42567B 160%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002366', endColorstr='#42567B',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    padding: 20px 0;
+    */
 }
 
-#center {
-    width: 600px;
-    margin: 0 auto;
-}
-
-#head {
-    padding: 0 80px 80px 80px;
-}
-#head h1 {
-    text-align: center;
-    font-family: verdana;
-    font-size: 32px;
-    color: #D4AF37;
-}
-#head #links {
-    margin: 0 auto;
-    text-align: center;
-}
-#head #links a:first-child {
-    padding-left: 0;
-}
-#head #links a {
-    font-family: "Lato", Tahoma, Arial, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #dfd9dc;
-    font-size: 12px;
-    padding-left: 20px;
-}
-
-#body h1 {
-    text-transform: uppercase;
-    font-size: 32px;
-    text-align: center;
-}
-#body .content {
-  /* background: rgba(255,255,255,0.8); */
-  /* background: #E4DBBE; */
-  background: #F3F3F3;
-  color: #202020;
-  border: 1px solid #fff;
-  padding: 45px;
-  font-family: helvetica;
-  font-size: 12px;
-  box-shadow: 1px 1px 3px #333;
-  margin-top: 60px;
+#main-navigation ul li a:hover, #main-navigation ul li a:focus {
+    color: #fff;
 }
 
 #googlemaps {
@@ -72,4 +28,53 @@ div#foot {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+section#content {
+    background-color: #D9DADF;
+}
+
+#title-area .site-title {
+    color: #D4AF37;
+}
+
+article.contact .split>div {
+    width: 48%;
+    float: right;
+}
+article.contact .split>div:first-child {
+    width: 48%;
+    float: left;
+}
+
+article.contact .split:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+article.contact .split h3 {
+    margin: 0;
+}
+
+article.contact p.phone,
+article.contact p.email {
+    margin: 0;
+}
+article.contact p.phone i {
+    margin-right: 3px;
+}
+article.contact p.email {
+    text-align: left;
+}
+
+article.contact p.email.com:after {
+    content: ".com"
+}
+
+article.contact p.email.se:after {
+    content: ".se"
 }
