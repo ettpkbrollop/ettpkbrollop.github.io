@@ -1,10 +1,44 @@
-html, body, div {
+html, body, #big {
     margin: 0;
     width: 100%;
     height: 100%;
 }
 
-div {
+#big {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002366+0,42567B+100;Grey+3D+%232 */
+    background: #002366; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #002366 0%, #42567B 160%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #002366 0%,#42567B 160%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #002366 0%,#42567B 160%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002366', endColorstr='#42567B',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    padding: 20px;
+}
+
+#head {
+    text-align: center;
+    font-family: verdana;
+    font-size: 32px;
+    color: #D4AF37;
+    padding: 80px;
+}
+
+#center {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#body {
+  background: rgba(255,255,255,0.8);
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 8px;
+  font-family: helvetica;
+  font-size: 12px;
+  box-shadow: 2px 2px 3px black;
+}
+
+div#foot {
     background-image: url('save-the-date.png');
     background-position: center center;
     background-size: contain;
