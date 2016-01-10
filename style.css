@@ -38,6 +38,19 @@ section#content {
     color: #D4AF37;
 }
 
+#title-area {
+    min-height: 200px;
+}
+#title-area h1.site-title {
+    color: #D4AF37;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0px;
+}
+
+article.content h1.title {
+    font-family: 'Great Vibes', cursive;
+}
+
 article.contact .split>div {
     width: 48%;
     float: right;
@@ -78,3 +91,71 @@ article.contact p.email.com:after {
 article.contact p.email.se:after {
     content: ".se"
 }
+
+#schedule-timeline>div {
+    float: left;
+    width: 96px;
+    font-size: 12px;
+    font-family: "Lato";
+}
+
+#schedule-timeline>div .symbol {
+    padding-right: 4px;
+    padding-left: 3px;
+    position: relative;
+    width: 89px;
+    height: 85px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#schedule-timeline>div .symbol .dash {
+    height: 5px;
+    width: 1px;
+    margin: 0 auto;
+    background-color: black;
+}
+#schedule-timeline>div .symbol .picture {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#schedule-timeline>div#church .symbol .picture {
+    background-image: url('images/rings.gif');
+}
+#schedule-timeline>div#mingle .symbol .picture {
+    background-image: url('images/champagne.png');
+}
+#schedule-timeline>div#dinner .symbol .picture {
+    background-image: url('images/dinner.png');
+}
+#schedule-timeline>div#dance .symbol .picture {
+    background-image: url('images/waltz.png');
+}
+#schedule-timeline>div#party .symbol .picture {
+    background-image: url('images/banana.gif');
+}
+#schedule-timeline>div#snack .symbol .picture {
+    background-image: url('images/hotdog.gif');
+}
+
+#schedule-timeline>div .what {
+    text-align: center;
+}
+
+#schedule-timeline>div .time {
+    position: relative;
+    text-align: center;
+}
+#schedule-timeline>div .time:before {
+    content: "\f017";
+    font-family: "FontAwesome";
+    padding-right: 4px;
+}
+
+#schedule-timeline>div.clear {
+    clear: both;
+    float: none;
+ }

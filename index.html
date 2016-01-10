@@ -7,6 +7,7 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
     <!--INCLUDE SQS SCRIPTS, META TAGS AND USER CONTENT FROM THE CODE INJECTION TAB-->
 
@@ -101,6 +102,9 @@ collection-type-blog collection-layout-default homepage view-list mobile-style-a
             <nav id="main-navigation" data-content-field="navigation-mainNav">
                 <ul class="cf">
                     <li>
+                        <a href="#home">Hem</a>
+                    </li>
+                    <li>
                         <a href="#directions">Vägbeskrivning</a>
                     </li>
                     <li>
@@ -122,14 +126,11 @@ collection-type-blog collection-layout-default homepage view-list mobile-style-a
 
     <div id="innerWrapper">
         <div id="title-area" class="relative">
-            <h1 class="site-title"
-                style="letter-spacing: 0.0138889em;">
-                PK Wedding
-                <a href="/">
-                    <img class="site-title-image"
-                         src="3_2998745fc0a72067a0.gif"
-                         alt="#ettpkbröllop">
-                </a>
+            <h1 class="site-title"> Kristin & Per <a href="/">
+                <!--img class="site-title-image"
+                     src="banana.gif"
+                     alt="#ettpkbröllop"-->
+            </a>
             </h1>
             <!--SITE contact info-->
             <div class="contact-info">
@@ -139,7 +140,7 @@ collection-type-blog collection-layout-default homepage view-list mobile-style-a
         <section id="content">
             <div class="main-content-wrapper cf" data-content-field="main-content">
                 <article class="content hentry">
-                    <h1 class="title">Välkomna!</h1>
+                    <h1 class="title" id="home">Välkomna!</h1>
 
                     <div class="body sqs-block html-block sqs-block-html">
                         <div class="sqs-block-content">
@@ -160,46 +161,6 @@ collection-type-blog collection-layout-default homepage view-list mobile-style-a
                                 recently with desktop publishing software
                                 like Aldus PageMaker including versions of
                                 Lorem Ipsum.
-                            </p>
-
-                            <p>
-                                It is a long established fact that a reader
-                                will be distracted by the readable content
-                                of a page when looking at its layout. The
-                                point of using Lorem Ipsum is that it has a
-                                more-or-less normal distribution of
-                                letters, as opposed to using 'Content here,
-                                content here', making it look like readable
-                                English. Many desktop publishing packages
-                                and web page editors now use Lorem Ipsum as
-                                their default model text, and a search for
-                                'lorem ipsum' will uncover many web sites
-                                still in their infancy. Various versions
-                                have evolved over the years, sometimes by
-                                accident, sometimes on purpose (injected
-                                humour and the like).
-                            </p>
-
-                            <p>
-                                Contrary to popular belief, Lorem Ipsum is
-                                not simply random text. It has roots in a
-                                piece of classical Latin literature from 45
-                                BC, making it over 2000 years old. Richard
-                                McClintock, a Latin professor at
-                                Hampden-Sydney College in Virginia, looked
-                                up one of the more obscure Latin words,
-                                consectetur, from a Lorem Ipsum passage,
-                                and going through the cites of the word in
-                                classical literature, discovered the
-                                undoubtable source. Lorem Ipsum comes from
-                                sections 1.10.32 and 1.10.33 of "de Finibus
-                                Bonorum et Malorum" (The Extremes of Good
-                                and Evil) by Cicero, written in 45 BC. This
-                                book is a treatise on the theory of ethics,
-                                very popular during the Renaissance. The
-                                first line of Lorem Ipsum, "Lorem ipsum
-                                dolor sit amet..", comes from a line in
-                                section 1.10.32.
                             </p>
 
                             <p>
@@ -277,6 +238,66 @@ collection-type-blog collection-layout-default homepage view-list mobile-style-a
 
                     <div class="body sqs-block html-block sqs-block-html">
                         <div class="sqs-block-content">
+
+                            <div id="schedule-timeline">
+                                <!--div id="check-in">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Check-in</div>
+                                    <div class="time">12:30</div>
+                                </div-->
+                                <div id="church">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Ceremoni</div>
+                                    <div class="time">15:00</div>
+                                </div>
+                                <div id="mingle">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Välkomstdrink</div>
+                                    <div class="time">17:00</div>
+                                </div>
+                                <div id="dinner">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Middag</div>
+                                    <div class="time">18:30</div>
+                                </div>
+                                <div id="dance">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Brudvals</div>
+                                    <div class="time">21:30</div>
+                                </div>
+                                <div id="party">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Fest</div>
+                                    <div class="time">22:00</div>
+                                </div>
+                                <div id="snack">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Vickning</div>
+                                    <div class="time">00:00</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -388,15 +409,9 @@ collection-type-blog collection-layout-default homepage view-list mobile-style-a
                             <a class="typeform-share button" href="https://kristinnorberg.typeform.com/to/NZe2nI"
                                data-mode="1" target="_blank">Registrera dig här</a>
                             <script>
-                                (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()
-
-
-
-
-
-
-
-
+                                (function(){
+                                    var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}
+                                })();
 
                             </script>
                         </div>
