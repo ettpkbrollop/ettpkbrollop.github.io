@@ -40,13 +40,14 @@ html, body, #big {
 
 #title-area {
     min-height: 200px;
-    padding: 60px 0 60px 0;
+    padding: 90px 0 90px 0;
 }
 
 #title-area h1.site-title {
     color: #D4AF37;
     font-family: 'Great Vibes', cursive;
     letter-spacing: 0px;
+    font-size: 100px;
 }
 
 article.content h2 {
