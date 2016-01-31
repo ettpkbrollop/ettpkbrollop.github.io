@@ -47,6 +47,12 @@ section#content {
     letter-spacing: 0px;
 }
 
+article.content h2 {
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
 article.content h1.title {
     font-family: 'Great Vibes', cursive;
 }
@@ -71,6 +77,10 @@ article.contact .split:after {
 
 article.contact .split h3 {
     margin: 0;
+}
+
+article.contact .sqs-block-content>p.email {
+    margin-bottom: 12px;
 }
 
 article.contact p.phone,
