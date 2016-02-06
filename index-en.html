@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+    <!--INCLUDE SQS SCRIPTS, META TAGS AND USER CONTENT FROM THE CODE INJECTION TAB-->
+
+    <!-- This is Squarespace. --><!-- erica-helin-l1tp -->
+    <link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1452095616969_163"
+          href="//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css">
+    <link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1452095616969_167"
+          href="//static.squarespace.com/universal/styles-compressed/social-buttons-578fb344ac92d6ab44d6030c1b952622-min.css">
+
+    <base href="">
+    <meta charset="utf-8">
+    <title>#ettpkbröllop</title>
+    <link rel="canonical" href="http://www.ettpkbröllop.se">
+    <meta property="og:site_name" content="#ettpkbröllop">
+    <meta property="og:title" content="#ettpkbröllop">
+    <meta property="og:url" content="http://www.xn--ettpkbrllop-xfb.se">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.xn--ettpkbrllop-xfb.se/images/meta.png">
+    <meta itemprop="thumbnailUrl" content="http://www.xn--ettpkbrllop-xfb.se/images/meta.png">
+    <link rel="image_src" href="http://www.xn--ettpkbrllop-xfb.se/images/meta.png">
+    <meta itemprop="image" content="http://www.xn--ettpkbrllop-xfb.se/images/meta.png">
+    <meta name="twitter:image" content="http://www.xn--ettpkbrllop-xfb.se/images/meta.png">
+    <meta itemprop="url" content="http://www.ettpkbröllop.se">
+    <meta itemprop="name" content="#ettpkbröllop">
+    <meta name="twitter:title" content="#ettpkbröllop">
+    <meta name="twitter:url" content="http://www.ettpkbröllop.se">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Lato:100,400,300,300italic,700normal,700italic,700,400italic|Old+Standard+TT:400,400italic,700normal,700italic|Source+Sans+Pro:400">
+
+    <link rel="stylesheet" type="text/css"
+          href="//static.squarespace.com/universal/styles-compressed/commerce-2b4a0593bca72ff9bd48bd03804b62b2-min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--[if gte IE 9]>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=1"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=2"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=3"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&part=4"/>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <script src="//static.squarespace.com"></script>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=1"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=2"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=3"/>
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&filterFeatures=false&noMedia=true&part=4"/>
+    <![endif]-->
+    <!--[if !IE]> -->
+    <link rel="stylesheet" type="text/css"
+          href="//static1.squarespace.com/static/sitecss/54db799ae4b0fa0ca47f21f9/32/507c1fdf84ae362b5e7be44e/54db799ae4b0fa0ca47f2202/2100-05142015/1443384134549/site.css?&amp;filterFeatures=false">
+    <!-- <![endif]-->
+    <!-- End of Squarespace Headers -->
+
+    <link type="text/css" href="style.css" media="all" rel="stylesheet">
+    <link type="text/css" href="flags/css/flag-icon.css" media="all" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<!--body class="info-page-layout-poster info-page-content-overlay tagline-and-contact-info-hide-all site-border-none
+social-icon-style-round  hide-author  show-category-navigation gallery-design-grid aspect-ratio-auto
+lightbox-style-light gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard
+gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop
+product-list-titles-under product-list-alignment-left product-item-size-11-square product-image-auto-crop
+product-gallery-size-11-square product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing
+event-thumbnails event-thumbnail-size-32-standard event-date-label event-date-label-time event-list-show-cats
+event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link
+opentable-style-light newsletter-style-dark small-button-style-solid small-button-shape-square
+medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square
+button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating
+tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate
+tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button
+tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-5500734ee4b011380d5f3d7c
+collection-type-blog collection-layout-default homepage view-list mobile-style-available"-->
+<body class="collection-type-blog">
+<div id="big">
+    <div id="head">
+        <header id="header">
+            <nav id="main-navigation" data-content-field="navigation-mainNav">
+                <ul class="cf">
+                    <li>
+                        <a href="#home">Hem</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">Schema</a>
+                    </li>
+                    <li>
+                        <a href="#accommodation">Boende</a>
+                    </li>
+                    <li>
+                        <a href="#presents">Gåvor</a>
+                    </li>
+                    <li>
+                        <a href="#directions">Vägbeskrivning</a>
+                    </li>
+                    <li>
+                        <a href="#golf">Golf</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+                <ul class="cf language-select">
+                    <li>
+                        <span class="img-thumbnail flag flag-icon-background flag-icon-se"></span>
+                        <a href="index.html">Svenska</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div id="innerWrapper">
+        <div id="title-area" class="relative">
+            <h1 class="site-title"> Kristin & Per <a href="/">
+                <!--img class="site-title-image"
+                     src="banana.gif"
+                     alt="#ettpkbröllop"-->
+            </a>
+            </h1>
+            <!--SITE contact info-->
+            <div class="contact-info">
+            </div>
+        </div>
+
+        <section id="content">
+            <div class="main-content-wrapper cf" data-content-field="main-content">
+                <article class="content hentry">
+                    <h1 class="title" id="home">Välkomna!</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <p>
+                                Vigseln mellan Kristin Norberg Ohlsson och Per Hallgren närmar sig med stormsteg - vi
+                                hoppas att ni är lika exalterade som vi är!
+                            </p>
+                            <p>
+                                För att lättare kunne besvara olika typer av frågor har vi skapat denna hemsida. Vi
+                                kommer att uppdatera hemsidan om det behövs men tror att ni hittar de flesta svar eller
+                                någon att fråga här.
+                            </p>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="schedule">Schema</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+
+                            <div id="schedule-timeline">
+                                <!--div id="check-in">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Check-in</div>
+                                    <div class="time">12:30</div>
+                                </div-->
+                                <div id="church">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Ceremoni</div>
+                                    <div class="time">15:00</div>
+                                </div>
+                                <div id="mingle">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Välkomstdrink</div>
+                                    <div class="time">17:15</div>
+                                </div>
+                                <div id="dinner">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Middag</div>
+                                    <div class="time">18:00</div>
+                                </div>
+                                <div id="dance">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Brudvals</div>
+                                    <div class="time">Sent</div>
+                                </div>
+                                <div id="party">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Fest</div>
+                                    <div class="time">Senare</div>
+                                </div>
+                                <div id="snack">
+                                    <div class="symbol">
+                                        <div class="picture"></div>
+                                        <div class="dash"></div>
+                                    </div>
+                                    <div class="what">Vickning</div>
+                                    <div class="time">Senast</div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="accommodation">Boende</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <p>
+                                För vår stora dag har vi abonnerat Bjertorp Slott som ligger beläget på Varaslätten.
+                            </p>
+                            <p>
+                                Vi vet att många gäster kommer långväga och slottet erbjuder huserum till en rabatterad
+                                kostnad av 950 kronor per person, bokning av boende under bröllopsnatten görs vid
+                                anmälan.
+                            </p>
+                            <p>
+                                Vid önskemål om extranatt hos Bjertorp Slott så erbjuds övernattning och tvårätters
+                                middag till priset av 1325 kronor per person eller endast övernattning för 950 kronor
+                                per person. Bokning av extranatt och eventuell middag görs direkt till Bjertorp Slott,
+                                ange gärna att ni hör till
+                                bröllopet.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="content hentry">
+                    <h1 class="title" id="presents">Gåvor</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <p>
+                                Brudparet är tacksamma för alla gåvor! Speciellt önskar de nygifta sig bidrag till en
+                                servis eller till bröllopsresan som kommer att ske senare under året.
+                            </p>
+                            <p> Vilken servis kommer att annonseras här längre fram.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="content hentry">
+                    <h1 class="title" id="directions">Vägbeskrivning</h1>
+
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <p>
+                                Vigselceremonin kommer att hållas i Fyrunga kyrka som ligger ca 2 km från Bjertorps
+                                slott, där
+                                vidare festligheter kommer att utspela sig under kvällen.
+                            </p>
+                            <div id="googlemaps">
+                                <iframe src="https://www.google.com/maps/d/embed?mid=z51qX0ppWtLk.kxRIQLF1z-nI"
+                                        width="565" height="390" frameborder="0" style="border:0" allowfullscreen="">
+                                </iframe>
+                            </div>
+
+                            <h2>Med bil</h2>
+                            <p>
+                                Vi rekommenderar att man tar bil till Bjertorps Slott då det är smidigast eftersom
+                                lokaltrafiken inte når hela vägen fram.
+                            </p>
+
+                            <div>
+                                <p>
+                                    <b>Från Göteborg:</b>
+                                    <span> Kör E20 mot Stockholm 110 km. 10 km efter Vara tar ni av höger mot Fyrunga /
+                                        Bjertorp slott.
+                                    </span>
+                                </p>
+
+                                <p>
+                                    <b>Från Stockholm:</b>
+                                    <span> Kör E20 mot Göteborg 390 km. 30 km efter Skara tar ni av vänster mot Fyrunga /
+                                    Bjertorp slott.
+                                    </span>
+                                </p>
+
+                                <p>
+                                    <b>Från Jönköping:</b>
+                                    <span> Kör riksväg 47 mot Trollhättan 100 km. 10 km innan Vara, i höjd med Tråvad tar ni vänster mot Tråvad / Bjertorp slott.</span>
+                                </p>
+                            </div>
+
+                            <h2> Med tåg</h2>
+                            <p>
+                                Med tåg kan man tar man sig bäst till Herrljunga (30 km från Bjertorp) eller Vara
+                                Station (12 km från Bjertorp).
+                                Från tågstationen kan Bjertorp ordna med transport med egen minibuss. Kostnad beroende
+                                på val av tågstation.
+                            </p>
+
+                            <h2>Med flyg</h2>
+                            <p>
+                                Avstånd från Landvetter flygplats (GOT) är 100 km och därifrån kan man ta sig kollektivt
+                                eller med hyrbil.
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article class="content hentry">
+                    <h1 class="title" id="golf">Golf</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <p>
+                                Som uppvärmning inför festligheterna arrangeras en golftävling med start fredag 10 juni
+                                kl. 18:00 - Ett PK Bröllop OPEN
+                            </p>
+                            <p>
+                                Golfen arrangeras av brudparets vänner Christian Lidberg, Martin Gustavsson och Andreas
+                                Svensson och går av stapeln på Vara-Bjertorps GK i direkt anslutning till Bjertorps
+                                Slott.
+                            </p>
+                            <p>
+                                Anmäl er genom att fylla i formuläret senast 1 juni så återkommer arrangörerna med mer
+                                information.
+
+                                Greenfee: 450 kr
+                            </p>
+                            <a class="typeform-share button" href="https://ettpkbrollop.typeform.com/to/NZe2nI"
+                               data-mode="1" target="_blank">Registrera dig här</a>
+                            <script>
+                            (function(){
+                                    var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}
+                                })();
+
+
+
+
+
+
+
+                            </script>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="content hentry contact">
+                    <h1 class="title" id="contact">Kontakt</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+                            <!--h2>Brudparet</h2>
+                            <div class="split">
+                                <div>
+                                    <h3> Per Hallgren </h3>
+                                    <p class="email com"> <i class="fa fa-envelope"></i> per.zut@gmail</p>
+                                    <p class="phone"> <i class="fa fa-phone-square"></i> +46 730 58 00 53</p>
+                                </div>
+                                <div>
+                                    <h3> Kristin Norberg Ohlsson </h3>
+                                    <p class="email com"> <i class="fa fa-envelope"></i> kristinnorbergohlsson@gmail</p>
+                                    <p class="phone"> <i class="fa fa-phone-square"></i> +46 70. .. .3 28</p>
+                                </div>
+                            </div-->
+
+                            <h2>Anmälan</h2>
+
+                            <p>
+                                Brudparets föräldrar tar emot din anmälan och hoppas att höra av dig snart, senast 31
+                                mars! Till föräldrarna anmäler man boende under bröllopsnatten och de kan besvara
+                                diverse frågor.
+                            </p>
+
+                            <p class="email se"><i class="fa fa-envelope"></i> osa@ettpkbröllop</p>
+                            <div class="split">
+                                <div>
+                                    <h3> Inga-Lill Norberg och <br> Mats Ohlsson </h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 0512-25033.</p>
+                                </div>
+                                <div>
+                                    <h3> Karin Hallgren och <br> Stefan Olsson</h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 073 201 15 05</p>
+                                </div>
+                            </div>
+
+                            <h2>Värdpar</h2>
+
+                            <p>
+                                Vårt värdpar tar hand om er under dagen och det är till dem som ni anmäler tal eller
+                                annat spex om ni vill bidra till den festliga stämningen under middagen, detta
+                                uppmuntras givetvis!
+                            </p>
+
+                            <p class="email se"><i class="fa fa-envelope"></i> tal@ettpkbröllop</p>
+
+                            <div class="split">
+                                <div>
+                                    <h3> Erina Svensson </h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 073-040 93 77</p>
+                                </div>
+                                <div>
+                                    <h3> Christian Lidberg </h3>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 070-292 51 88</p>
+                                </div>
+                            </div>
+
+                            <h2>Tärna och marskalk</h2>
+
+                            <p>
+                                Om ni undrar något som inte föräldrarna kan besvara och inte vill fråga brudparet
+                                direkt, så är det tärnan eller
+                                marskalken man vänder sig till. Om det dyker upp något under själva bröllopsdagen så är
+                                dessa personer ypperliga att kontakta iställlet för brudparet.
+                            </p>
+
+                            <div class="split">
+                                <div>
+                                    <h3> Ellen Forsberg </h3>
+                                    <p class="email com"><i class="fa fa-envelope"></i> forsbergellen@gmail</p>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 072-993 67 68</p>
+                                </div>
+                                <div>
+                                    <h3> Tomas Olsson </h3>
+                                    <p class="email com"><i class="fa fa-envelope"></i> ohlson.tomas@gmail</p>
+                                    <p class="phone"><i class="fa fa-phone-square"></i> 073-657 80 23</p>
+                                </div>
+                            </div>
+
+                            <h2>Bjertorps Slott</h2>
+
+                            <p>
+                                Bjertorp hjälper dig gärna om du har frågor kring boende, frukost eller aktiviteter
+                                under vistelsen utanför tiden för bröllopsfestligheterna. Nämn gärna att du är i Kristin
+                                och Pers sällskap.
+                            </p>
+
+                            <p class="phone"><i class="fa fa-phone-square"></i> 0512-300 500</p>
+                            <p class="email se"><i class="fa fa-envelope"></i> info@bjertorpslott.se</p>
+                            <p>
+                                <a href="http://www.bjertorpslott.se/">http://www.bjertorpslott.se/</a>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="content hentry contact">
+                    <h1 class="title" id="contact">Vi ses i juni!</h1>
+
+                    <div class="body sqs-block html-block sqs-block-html">
+                        <div class="sqs-block-content">
+
+                            <p>
+                                Vi ser fram emot att träffa er alla i sommar!
+
+                                Nedan ser ni en bild tagen några få minuter innan frieriet på Stubnerkogel i Österrike.
+                            </p>
+
+                            <p>
+                                Ha det bra tills dess, <br>
+                                Kristin och Per
+                            </p>
+
+                            <div class="img">
+                                <img src="images/meta.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <div id="foot">
+        <h2>#ettpkbröllop</h2>
+
+        <div class="img"><img src="images/meta.png"></div>
+    </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72513171-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

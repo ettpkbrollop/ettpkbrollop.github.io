@@ -22,6 +22,24 @@ html, body, #big {
     color: #fff;
 }
 
+#main-navigation ul.language-select {
+    margin-top: 10px;
+}
+
+#main-navigation ul.language-select li {
+    padding-left: 30px;
+    position: relative;
+}
+
+#main-navigation ul.language-select span {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    left: 0;
+    border: 1px solid #bbb;
+}
+
 #googlemaps {
     background: white;
     padding: 6px 6px 5px 6px;
