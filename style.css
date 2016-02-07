@@ -72,6 +72,7 @@ article.content h2 {
     font-family: 'Great Vibes', cursive;
     letter-spacing: 0px;
     text-transform: none;
+    font-size: 22px;
 }
 
 article.content h1.title {
