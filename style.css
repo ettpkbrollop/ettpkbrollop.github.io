@@ -79,13 +79,24 @@ article.content h1.title {
     font-family: 'Great Vibes', cursive;
 }
 
-article.contact .split>div {
-    width: 48%;
-    float: right;
+@media (min-width: 350px) {
+    body article.contact .split>div {
+        width: 48%;
+        float: right;
+    }
+    body article.contact .split>div:first-child {
+        width: 48%;
+        float: left;
+    }
 }
-article.contact .split>div:first-child {
-    width: 48%;
-    float: left;
+
+@media (max-width: 350px) {
+    body article.contact .split>div {
+        margin-top: 12px;
+    }
+    body article.contact .split>div:first-child {
+        margin-top: 0px;
+    }
 }
 
 article.contact .split:after {
